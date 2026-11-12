@@ -1,0 +1,13 @@
+{
+  "name": "cineflow-local-agent",
+  "version": "1.0.0",
+  "description": "AI 视频创作智能体（本地 CLI）：主题 → 分镜脚本 → 画面 → 视频 → 配音配乐 → 成片",
+  "type": "module",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "dependencies": {
+    "coze-coding-dev-sdk": "^0.7.24"
+  }
+}
